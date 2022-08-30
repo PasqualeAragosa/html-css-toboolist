@@ -39,6 +39,16 @@ header {
 /* main */
 main {
     background-color: var(--bol-white);
+    margin: 100px
+}
+
+.badge {
+    display: inline-block;
+    color: var(--bol-white);
+    background-color: var(--bol-blu);
+    border-radius: 4%;
+    width: 80px;
+    text-align: center;
 }
 
 .blu {
@@ -49,15 +59,20 @@ main {
     background-color: var(--bol-violet);
 }
 
+.pink {
+    background-color: var(--bol-pink);
+}
 
+.orange {
+    background-color: var(--bol-orange);
+}
 
-.badge {
-    display: inline-block;
-    color: var(--bol-white);
-    background-color: var(--bol-blu);
-    border-radius: 4%;
-    width: 80px;
-    text-align: center;
+.light-green {
+    background-color: var(--bol-light-green);
+}
+
+.green {
+    background-color: var(--bol-green);
 }
 /* /main */
 
