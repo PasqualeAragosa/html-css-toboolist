@@ -11,16 +11,17 @@
     --bol-light-green: #B0C926;
 }
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+} 
 
 body {
-    background-color: brown;
+    background-color: grey;
 }
 
+/* header */
 header {
     background-color: var(--bol-white);
 }
@@ -33,7 +34,9 @@ header {
     font-size: 2rem;
     vertical-align: middle;
 }
+/* /header */
 
 main {
     background-color: red;
 }
+
