@@ -36,7 +36,28 @@ header {
 }
 /* /header */
 
+/* main */
 main {
-    background-color: red;
+    background-color: var(--bol-white);
 }
+
+.blu {
+    background-color: var(--bol-blu);
+}
+
+.violet {
+    background-color: var(--bol-violet);
+}
+
+
+
+.badge {
+    display: inline-block;
+    color: var(--bol-white);
+    background-color: var(--bol-blu);
+    border-radius: 4%;
+    width: 80px;
+    text-align: center;
+}
+/* /main */
 
