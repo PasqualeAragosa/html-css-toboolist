@@ -1,2 +1,17 @@
--color: yellow;
+:root {
+    --bol-white: #FFFFFF;
+    --bol-grey: #F6F8F9;
+    --bol-blu: #7CC6F6;
+    --bol-check-green: #64C0A9;
+    --bol-check-red: #EB5952;
+    --bol-violet: #9C72E4;
+    --bol-green: #64C0A9;
+    --bol-orange: #F29E33;
+    --bol-pink: #D863A1;
+    --bol-light-green: #B0C926;
 }
+
+body {
+    background-color: var(--bol-grey);
+}
+
