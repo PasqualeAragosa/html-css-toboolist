@@ -15,10 +15,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial',  sans-serif;
 } 
 
 body {
-    background-color: grey;
+    background-color: var(--bol-grey);
 }
 
 /* header */
@@ -40,6 +41,21 @@ header {
 main {
     background-color: var(--bol-white);
     margin: 100px
+}
+
+.main_header {
+    background-color: var(--bol-white);
+    padding: 20px;
+    border-bottom: 1px solid grey;
+
+}
+
+button {
+    background-color: var(--bol-blu);
+}
+
+div {
+    padding: 20px;
 }
 
 .badge {
