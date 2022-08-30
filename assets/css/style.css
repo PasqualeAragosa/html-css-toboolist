@@ -11,7 +11,29 @@
     --bol-light-green: #B0C926;
 }
 
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 body {
-    background-color: var(--bol-grey);
+    background-color: brown;
 }
 
+header {
+    background-color: var(--bol-white);
+}
+
+.logo_header {
+    vertical-align: middle;
+}
+
+#span_header {
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+main {
+    background-color: red;
+}
