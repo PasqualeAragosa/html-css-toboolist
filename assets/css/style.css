@@ -1,5 +1,5 @@
+/* #region Common*/
 :root {
-    --bol-white: #FFFFFF;
     --bol-grey: #F6F8F9;
     --bol-blu: #7CC6F6;
     --bol-check-green: #64C0A9;
@@ -15,56 +15,98 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial',  sans-serif;
 } 
 
 body {
     background-color: var(--bol-grey);
+    font-family: 'Arial',  sans-serif;
 }
 
-/* header */
-header {
-    background-color: var(--bol-white);
+h1 {
+    display: inline-block;
 }
 
-.logo_header {
+p {
+    padding: 0.75rem 0;
+    font-size: 1.25rem;
+}
+
+i {
+    font-size: 1.25rem;
+}
+/* #endregion Common*/
+
+/* #region Body */
+.logo {
+    background-color: white;
+    padding: 0.75rem 1rem;
+}
+
+.logo_img {
+    vertical-align: middle;
+    height: 4rem;
+}
+
+.logo_text {
+    font-size: 3rem;
     vertical-align: middle;
 }
 
-#span_header {
-    font-size: 2rem;
-    vertical-align: middle;
-}
-/* /header */
+/* ################################### */
 
-/* main */
-main {
-    background-color: var(--bol-white);
-    margin: 100px
+.wrapper {
+    background-color: white;
+    width: 80%;
+    margin: 2rem auto 0 auto;
 }
 
-.main_header {
-    background-color: var(--bol-white);
-    padding: 20px;
-    border-bottom: 1px solid grey;
-
+.p_left_3 {
+    padding-left: 3rem;
 }
 
-button {
+.my_btn {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(234, 227, 227, 0.822);
+}
+
+.my_btn span {
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+
+.add_task {
     background-color: var(--bol-blu);
+    color: white;
+    border: 0;
 }
 
-div {
-    padding: 20px;
+.add_section {
+    background-color: white;
+    color: rgba(207, 200, 200, 0.963);
+    border: 1px solid rgba(207, 200, 200, 0.963);
+}
+
+/* ################################### */
+
+.manage {
+    padding-top: 1.5rem;
+}
+
+.check {
+    border: 1px solid var(--bol-check-green);
+    border-radius: 50%;
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    color: var(--bol-check-green);
 }
 
 .badge {
-    display: inline-block;
-    color: var(--bol-white);
-    background-color: var(--bol-blu);
-    border-radius: 4%;
-    width: 80px;
-    text-align: center;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.95rem;
+    font-size: 0.90rem;
 }
 
 .blu {
@@ -90,5 +132,17 @@ div {
 .green {
     background-color: var(--bol-green);
 }
-/* /main */
+
+.my_check {
+    color: var(--bol-check-green);
+}
+
+.my_xmark {
+    color: var(--bol-check-red);
+}
+
+.manage:last-child {
+    padding-bottom: 3rem;
+}
+/* #endregion Body */
 

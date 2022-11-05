@@ -1,53 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Toboolist</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+
     <header id="site_header">
-        <img class="logo_header" src="./assets/img/Logo.png" alt="logo con rombo verde-nero">
-        <span id="span_header"><strong>Toboolist</strong></span>
+        <div class="logo">
+            <img class="logo_img" src="./assets/img/Logo.png" alt="logo con rombo verde-nero">
+            <h1 class="logo_text">Toboolist</h1>
+        </div>
+        <!-- /.logo -->
     </header>
     <!-- /#site_header -->
 
     <main id="site_main">
+        <div class="wrapper">
+            <div class="my_btn p_left_3">
+                <span class="add_task">Add Task</span>
+                <span class="add_section">Add Section</span>
+            </div>
+            <!-- /.my_btn -->
 
-        <section class="main_header">
-            <button>Add Task</button>
-            <button>Add Section</button>
-        </section>
-        <!-- /.main_header -->
+            <div class="content p_left_3">
+                <div class="manage">
+                    <h2>
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        New Task
+                    </h2>
+                    <p>
+                        <i class="fa-regular fa-circle-check my_check"></i>
+                        Quarterly Nesletter
+                        <span class="badge blu"> Editorial </span>
+                    </p>
+                </div>
+                <!-- /.manage_task -->
+    
+                <div class="manage">
+                    <h2>
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        Today
+                    </h2>
+                    <p>
+                        <i class="fa-regular fa-circle-check my_check"></i>
+                        Recruiting blog post
+                        <span class="badge blu">Editorial</span>
+                    </p>
+                    <p>
+                        <i class="fa-regular fa-circle-check my_check"></i>
+                        Mobile app luaunch
+                        <span class="badge violet">Q1 Goals</span>
+                    </p>
+                    <p>
+                        <i class="fa-regular fa-circle-xmark my_xmark"></i>
+                        Interview John H.
+                        <span class="badge green">Recuilting</span>
+                    </p>
+                    <p>
+                        <i class="fa-regular fa-circle-check my_check"></i>
+                        Summit update to mobile storefronts
+                        <span class="badge orange">Mobile</span>
+                    </p>
+                </div>
+                <!-- /.manage_today -->
+    
+                <div class="manage">
+                    <h2>
+                        <i class="fa-sharp fa-solid fa-caret-down"></i>
+                        Upcoming
+                    </h2>
+                    <p>
+                        <i class="fa-regular fa-circle-xmark my_xmark"></i>
+                        Schedule meeting with Alex</p>
+                    <p>
+                        <i class="fa-regular fa-circle-check my_check"></i>
+                        Homepage refresh
+                        <span class="badge pink"> Website </span>
+                    </p>
+                    <p>
+                        <i class="fa-regular fa-circle-check my_check"></i>
+                        Onboard new Sales team members
+                        <span class="badge light-green">Sales</span>
+                    </p>
+                    <p>
+                        <i class="fa-regular fa-circle-check my_check"></i>
+                        Review editorial calendar
+                        <span class="badge blu">Editorial</span>
+                    </p>
+                </div>
+                <!-- /.manage_upcoming -->
+            </div>
+            <!-- /.content -->
 
-        <div class="manage_task">
-            <br>
-            <h2>&#9662; New Task</h2>
-            <p>&check; Quarterly Nesletter <span class="badge blu"> Editorial </span></p>
-            <br>
         </div>
-        <!-- /.manage_task -->
-
-        <div class="manage_today">
-            <h2>&#9662; Today</h2>
-            <p>&check; Recruiting blog post <span class="badge blu"> Editorial </span></p>
-            <p>&check; Mobile app luaunch <span class="badge violet"> Q1 Goals </span></p>
-            <p>&cross; Interview John H. <span class="badge green"> Recuilting </span></p>
-            <p>&check; Summit update to mobile storefronts <span class="badge orange"> Mobile </span></p>
-            <br>
-        </div>
-        <!-- /.manage_today -->
-
-        <div class="manage_Upcoming">
-            <h2>&#9662; Upcoming</h2>
-            <p>&cross; Schedule meeting with Alex</p>
-            <p>&check; Homepage refresh <span class="badge pink"> Website </span></p>
-            <p>&check; Onboard new Sales team members <span class="badge light-green"> Sales </span></p>
-            <p>&check; Review editorial calendar <span class="badge blu"> Editorial </span></p>
-        </div>
-        <!-- /.manage_upcoming -->
+        <!-- /.wrapper -->
 
     </main>
     <!-- /#site_main -->
